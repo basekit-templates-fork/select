@@ -449,7 +449,7 @@
 // For screen size larger than 920px. Media queries below.
 .gallery__image-link {
     display: block;
-    height: 450px;
+    height: 350px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -1014,44 +1014,6 @@
 .line .rule {
     height: 1px;
     background-color: darken(@color-swatch1, 20%);
-}
-
-// Style for the graphic in the divider and in the theme-footer__graphic
-.rule {
-    &:before {
-        position: absolute;
-        left: 50%;
-        margin-left: -15px;
-        top: -3px;
-        width: 28px;
-        height: 28px;
-        content: "";
-        background-color: @color-swatch1;
-        border: 1px solid darken(@color-swatch1, 60%);
-        -webkit-transform: rotate(45deg);
-        -moz-transform: rotate(45deg);
-        -ms-transform: rotate(45deg);
-        -o-transform: rotate(45deg);
-        transform: rotate(45deg);
-        box-shadow: -7px 7px 0 -3px darken(@color-swatch1, 60%);
-    }
-    &:after {
-        position: absolute;
-        left: 50%;
-        margin-left: -15px;
-        top: -3px;
-        width: 28px;
-        height: 28px;
-        content: "";
-        background-color: @color-swatch1;
-        border: 1px solid darken(@color-swatch1, 60%);
-        -webkit-transform: rotate(45deg);
-        -moz-transform: rotate(45deg);
-        -ms-transform: rotate(45deg);
-        -o-transform: rotate(45deg);
-        transform: rotate(45deg);
-        box-shadow: 7px -7px 0 -3px darken(@color-swatch1, 60%);
-    }
 }
 
 .theme-footer .rule {
